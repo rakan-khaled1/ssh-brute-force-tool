@@ -67,7 +67,7 @@ git clone https://github.com/rakan-khaled1/ssh-brute-force-tool.git
 
 Move it to the required path:
 
-mv ssh-brute-force /home/kali/ssh_brute
+mv ssh-brute-force-tool /home/kali
 cd /home/kali/ssh-brute-force-tool
 
 

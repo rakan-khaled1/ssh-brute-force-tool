@@ -62,7 +62,7 @@ sudo apt install nmap -y
 
 Clone the repository:
 
-git clone https://github.com/rakan_khaled1/ssh-brute-force-tool.git
+git clone https://github.com/rakan-khaled1/ssh-brute-force-tool.git
 
 
 Move it to the required path:

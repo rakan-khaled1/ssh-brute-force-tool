@@ -42,7 +42,7 @@ This tool must be installed under the following path for the built-in wordlists 
 
 Correct directory structure:
 /home/kali/
-└── ssh_brute/
+└── ssh-brute-force-tool/
     ├── sshbrute.sh
     ├── ssh_usernames_list.txt
     └── ssh_passwords_list.txt
@@ -55,19 +55,20 @@ If you install it in a different path, the built-in wordlists will not work unle
 Make sure the following tools are installed:
 
 sudo apt update
-sudo apt install nmap patator -y
+sudo apt install patator -y
+sudo apt install nmap -y
 
 🚀 Usage
 
 Clone the repository:
 
-git clone https://github.com/yourusername/ssh-brute-force-tool.git
+git clone https://github.com/rakan_khaled1/ssh-brute-force-tool.git
 
 
 Move it to the required path:
 
 mv ssh-brute-force /home/kali/ssh_brute
-cd /home/kali/ssh_brute
+cd /home/kali/ssh-brute-force-tool
 
 
 Make the script executable:

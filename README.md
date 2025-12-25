@@ -1,4 +1,4 @@
-![image alt]([https://your-image-link-here.png](https://github.com/rakan-khaled1/ssh-brute-force-tool/blob/dd34d33696e5fedd467fa5ea1bb73ff95442d862/Screenshot_2025-12-21_11-53-23.png)
+![image alt](https://your-image-link-here.png](https://github.com/rakan-khaled1/ssh-brute-force-tool/blob/dd34d33696e5fedd467fa5ea1bb73ff95442d862/Screenshot_2025-12-21_11-53-23.png)
 
 ## 📌 Description
 

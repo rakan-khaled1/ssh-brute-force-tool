@@ -1,5 +1,4 @@
-![image alt](https://your-image-link-here.png](https://github.com/rakan-khaled1/ssh-brute-force-tool/blob/dd34d33696e5fedd467fa5ea1bb73ff95442d862/Screenshot_2025-12-21_11-53-23.png)
-
+![image alt](https://github.com/rakan-khaled1/ssh-brute-force-tool/blob/91845f2930e01032008561a7d97f5b454e826f1d/Screenshot_2025-12-21_11-53-23.png)
 ## 📌 Description
 
 This is a **Bash-based SSH brute force tool** built for **educational and authorized penetration testing purposes only**.  
